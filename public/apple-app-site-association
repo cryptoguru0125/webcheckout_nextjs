@@ -1,0 +1,17 @@
+{
+  "applinks" : {
+    "details" : [
+      {
+        "appIDs" : [
+          "83QAZKHQQY.com.dailybloom.Bloom"
+        ],
+        "components" : [
+          {
+            "/" : "/*",
+            "comment" : "Matches any URL"
+          }
+        ]
+      }
+    ]
+  }
+}

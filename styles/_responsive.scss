@@ -1,0 +1,131 @@
+:root {
+  --app-height: 100%;
+}
+
+@media (min-width: 560px) {
+  h1,
+  p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .wc-step p {
+    max-width: 450px;
+    margin-top: 8px;
+  }
+  .btn-primary {
+    &:hover:not(:disabled) {
+      opacity: 0.7;
+    }
+  }
+  .wc-option-item {
+    &:hover {
+      background-color: #b8bcee;
+      color: #fff !important;
+      .wc-option-icon:not(.stroke) path {
+        fill: #eee;
+      }
+      .wc-option-icon.stroke path {
+        stroke: #eee;
+      }
+      p {
+        color: #eee !important;
+      }
+    }
+  }
+}
+@media (max-width: 559px) {
+  html {
+    height: -webkit-fill-available;
+  }
+  .container {
+    padding: 16vh 16px 30px 16px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  }
+  .wc-step {
+    text-align: left;
+    padding: 0 29px;
+    margin: 0;
+  }
+  h1 {
+    font-size: 28px;
+    margin-bottom: 4px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .btn {
+    height: 55px;
+    line-height: 55px;
+    margin: 8px 0;
+    font-size: 16px;
+    font-weight: 900;
+  }
+  .wc-option-list {
+    margin-top: 48px;
+  }
+  .wc-premium-panel h4 {
+    font-size: 16px;
+    margin-bottom: 3px;
+  }
+  .wc-circlebox-list li {
+    font-size: 16px;
+    padding-left: 30px;
+    margin: 7px 0;
+  }
+  .wc-circlebox-list li::before {
+    width: 17px;
+    height: 17px;
+    top: 1px;
+  }
+  .wc-circlebox-list li::after {
+    width: 5px;
+    height: 3px;
+    top: 6px;
+    left: 5px;
+  }
+
+  .wc-choose-payment p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .wc-choose-payment h3 {
+    font-size: 16px;
+    color: #31556f;
+    font-weight: normal;
+  }
+  .wc-prev-large-icon {
+    display: none;
+  }
+  .wc-prev-icon {
+    display: inline-block;
+  }
+  .btn-bottom {
+    // margin-top: 63px;
+    margin-top: auto;
+  }
+}
+
+// Galaxy, iPhoneX, and other
+@media (max-width: 559px) and (max-height: 810px) {
+  .container {
+    padding-top: 100px;
+  }
+  .wc-option-list {
+    margin-top: 20px;
+  }
+}
+
+// Galaxy, iPhoneX, and other
+@media (max-width: 559px) and (max-height: 735px) {
+  .container {
+    padding-top: 70px;
+  }
+  .wc-option-list {
+    margin-top: 20px;
+  }
+  .btn-bottom {
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,18 @@
+.text-center {
+  text-align: center !important;
+}
+.text-left {
+  text-align: left !important;
+}
+.text-right {
+  text-align: right !important;
+}
+.text-blue {
+  color: #5793e2;
+}
+
+@media (min-width: 560px) {
+  .text-lg-center {
+    text-align: center !important;
+  }
+}
